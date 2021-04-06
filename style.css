@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Open + Sans:regular, 700);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.product-list {
+  max-width: 960px;
+  margin: 4rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 25%;
+  padding: 2rem;
+  line-height: 150%;
+}
+
+.product__name {
+  font-weight: bold;
+}
+
+.product__quantity {
+  color: gray;
+}
